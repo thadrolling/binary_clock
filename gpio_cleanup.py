@@ -1,0 +1,23 @@
+# reset all GPIO ports to '0' on binary clock
+import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)
+GPIO.setup(11,GPIO.OUT)
+GPIO.setup(12,GPIO.OUT)
+GPIO.setup(13,GPIO.OUT)
+GPIO.setup(14,GPIO.OUT)
+GPIO.setup(15,GPIO.OUT)
+GPIO.setup(16,GPIO.OUT)
+GPIO.setup(17,GPIO.OUT)
+GPIO.setup(18,GPIO.OUT)
+GPIO.setup(19,GPIO.OUT)
+GPIO.setup(20,GPIO.OUT)
+GPIO.setup(21,GPIO.OUT)
+GPIO.setup(22,GPIO.OUT)
+GPIO.setup(23,GPIO.OUT)
+GPIO.setup(24,GPIO.OUT)
+GPIO.setup(25,GPIO.OUT)
+GPIO.setup(26,GPIO.OUT)
+GPIO.setup(27,GPIO.OUT)
+
+GPIO.cleanup()
